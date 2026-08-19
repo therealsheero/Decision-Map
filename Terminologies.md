@@ -1,3 +1,5 @@
+a few topics.
+
 # Complete Machine Learning & AI Architecture Map
 
 ## Table of Contents
@@ -20,7 +22,6 @@
 - Current Frontier Architectures
 
 ---
-
 
 # 1. Machine Learning Paradigms
 
