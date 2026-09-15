@@ -1,4 +1,3 @@
-
 # GENAI / LLM ENGINEERING ROADMAP
 
 **Goal:** ML/DL → practical GenAI/LLM engineering before Deloitte.
@@ -25,6 +24,55 @@
 
 * Andrej Karpathy — **Let's build GPT from scratch**
 * https://www.youtube.com/watch?v=kCc8FmEb1nY
+
+**🎥 Additional FREE Videos:**
+
+* Andrej Karpathy — **Let's build the GPT Tokenizer**
+* https://www.youtube.com/watch?v=zduSFxRajkE
+* Excellent for:
+
+  * Tokenization
+  * BPE
+  * Token IDs
+  * Encoding / decoding
+  * Vocabulary
+  * Special tokens
+* 3Blue1Brown — **Attention in transformers, step-by-step**
+* https://www.youtube.com/watch?v=eMlx5fFNoYc
+* Excellent for:
+
+  * Self-attention
+  * Query / Key / Value
+  * Attention mechanism
+  * Multi-head attention
+  * Context
+  * Transformers
+* 3Blue1Brown — **But what is a GPT?**
+* Search YouTube:
+  `3Blue1Brown But what is a GPT`
+* Excellent conceptual explanation of:
+
+  * Transformer architecture
+  * Next-token prediction
+  * Embeddings
+  * Attention
+  * Neural-network layers
+* Andrej Karpathy — **Neural Networks: Zero to Hero**
+* Search YouTube:
+  `Andrej Karpathy Neural Networks Zero to Hero`
+* Useful for understanding the neural-network foundations underneath LLMs.
+
+**📚 FREE Reading:**
+
+* Jay Alammar — **The Illustrated Transformer**
+* https://jalammar.github.io/illustrated-transformer/
+* Very useful visual explanation of:
+
+  * Attention
+  * Transformers
+  * Encoder/decoder
+  * Embeddings
+  * Query/Key/Value
 
 **Priority:** ⭐⭐⭐⭐
 
@@ -59,6 +107,32 @@ Focus especially on:
 * Similar-vector search
 * Embedding generation
 
+**🎥 Additional FREE Videos:**
+
+* Sentence Transformers — search YouTube:
+  `Sentence Transformers embeddings tutorial`
+* Hugging Face — search YouTube:
+  `Hugging Face embeddings sentence transformers`
+* Pinecone — search YouTube:
+  `Pinecone embeddings vector search`
+
+**📚 FREE Resource:**
+
+* Sentence Transformers documentation
+* https://www.sbert.net/
+
+Focus on:
+
+* Sentence embeddings
+* Semantic similarity
+* Cosine similarity
+* Pre-trained embedding models
+
+**Practice resource:**
+
+* Hugging Face — search models for sentence embeddings
+* https://huggingface.co/models
+
 **Priority:** ⭐⭐⭐⭐⭐
 
 ---
@@ -89,6 +163,24 @@ This is a ~55-minute course with lessons on embeddings, similarity search, ANN, 
 
 * DeepLearning.AI — **Building Applications with Vector Databases**
 * https://www.deeplearning.ai/courses/building-applications-vector-databases
+
+**🎥 Additional FREE Videos:**
+
+* FAISS tutorial — search YouTube:
+  `FAISS vector database tutorial Python`
+* ChromaDB tutorial — search YouTube:
+  `ChromaDB tutorial Python RAG`
+* Vector databases explained — search YouTube:
+  `vector database embeddings similarity search`
+
+**📚 FREE Official Resources:**
+
+* FAISS documentation
+* https://faiss.ai/
+* Chroma documentation
+* https://docs.trychroma.com/
+* Pinecone — **Vector Database Learning Center**
+* https://www.pinecone.io/learn/
 
 **Priority:** ⭐⭐⭐⭐⭐
 
@@ -140,6 +232,28 @@ Question
 
 It includes a dedicated RAG lesson and covers semantic search, RAG and hybrid search.
 
+**🎥 BEST FREE VIDEO ADDITION:**
+
+* freeCodeCamp — **Learn RAG From Scratch**
+* https://www.youtube.com/watch?v=sVcwVQRHIc8
+
+This is especially useful because it goes beyond basic RAG and includes:
+
+* Indexing
+* Retrieval
+* Generation
+* Multi-query
+* RAG Fusion
+* Query decomposition
+* Step-back prompting
+* HyDE
+* Routing
+* Query construction
+* Multi-representation indexing
+* ColBERT
+* CRAG
+* Adaptive RAG
+
 **Priority:** ⭐⭐⭐⭐⭐
 
 ---
@@ -166,6 +280,52 @@ PDF
 **Goal:**
 
 Understand what LangChain is doing underneath.
+
+**🎥 FREE VIDEOS:**
+
+* freeCodeCamp — **Learn RAG From Scratch**
+* https://www.youtube.com/watch?v=sVcwVQRHIc8
+* Search YouTube:
+  `RAG from scratch Python FAISS HuggingFace Ollama`
+* Search YouTube:
+  `build RAG from scratch without LangChain`
+
+**📚 FREE TOOLS / DOCUMENTATION:**
+
+* Hugging Face
+* https://huggingface.co/
+* FAISS
+* https://faiss.ai/
+* Ollama
+* https://ollama.com/
+* PyMuPDF
+* https://pymupdf.readthedocs.io/
+
+**Important practice:**
+
+Do NOT copy a complete tutorial.
+
+Build each component yourself:
+
+```text
+PDF loader
+↓
+Text cleaner
+↓
+Chunker
+↓
+Embedding generator
+↓
+FAISS index
+↓
+Retriever
+↓
+Prompt builder
+↓
+LLM
+↓
+Answer
+```
 
 **Priority:** ⭐⭐⭐⭐⭐
 
@@ -207,6 +367,24 @@ LangChain is an abstraction/framework for building LLM applications and workflow
 
 The official tutorials currently include semantic search over PDFs and RAG agents.
 
+**🎥 FREE VIDEOS:**
+
+* LangChain official YouTube
+* Search:
+  `LangChain official RAG tutorial`
+* freeCodeCamp — **LangChain / RAG tutorials**
+* Search:
+  `freeCodeCamp LangChain RAG`
+* Search YouTube:
+  `LangChain complete tutorial Python RAG`
+
+**📚 Additional FREE Resource:**
+
+* LangChain documentation
+* https://docs.langchain.com/
+
+Focus on understanding the abstraction rather than memorizing APIs.
+
 **Priority:** ⭐⭐⭐⭐⭐
 
 ---
@@ -234,6 +412,38 @@ Bad retrieval
 Good retrieval
 → Good context
 → Potentially good answer
+
+**🎥 FREE VIDEOS:**
+
+* Search YouTube:
+  `LLM hallucination explained RAG`
+* Search YouTube:
+  `RAG hallucination grounding explained`
+* Search YouTube:
+  `why RAG does not eliminate hallucinations`
+
+**🎥 Recommended:**
+
+* DeepLearning.AI — search YouTube:
+  `DeepLearning.AI hallucination RAG`
+
+**📚 FREE Reading:**
+
+* Google — **Introduction to Large Language Models**
+* Search:
+  `Google Machine Learning Crash Course large language models`
+* OpenAI — search documentation for:
+  `hallucinations grounding evaluations`
+
+**Practice:**
+
+Create a RAG system where the answer is deliberately absent from the documents.
+
+Your system should answer:
+
+> "I don't have enough information in the provided documents to answer this."
+
+instead of inventing an answer.
 
 **Priority:** ⭐⭐⭐⭐⭐
 
@@ -272,6 +482,45 @@ Is the problem caused by:
 * https://docs.langchain.com/langsmith/evaluate-rag-tutorial
 
 It covers creating evaluation datasets, running the RAG application against them, and measuring performance with evaluators.
+
+**🎥 FREE VIDEOS:**
+
+* Search YouTube:
+  `RAG evaluation Recall@K Precision@K MRR`
+* Search YouTube:
+  `RAG evaluation LangSmith tutorial`
+* Search YouTube:
+  `RAGAS RAG evaluation tutorial`
+
+**📚 FREE Additional Resources:**
+
+* Ragas
+* https://docs.ragas.io/
+
+Focus on:
+
+* Faithfulness
+* Answer relevance
+* Context precision
+* Context recall
+
+**Practice:**
+
+Create a dataset:
+
+```text
+Question
+Expected answer
+Expected source/chunk
+```
+
+Then measure:
+
+```text
+Retrieval quality
++
+Generation quality
+```
 
 **Priority:** ⭐⭐⭐⭐
 
@@ -325,6 +574,54 @@ Covers:
 * HyDE
 * Citations
 
+**🎥 Additional FREE Video:**
+
+* freeCodeCamp — **Learn RAG From Scratch**
+* https://www.youtube.com/watch?v=sVcwVQRHIc8
+
+Pay particular attention to:
+
+* Multi-query
+* RAG Fusion
+* Query decomposition
+* Step-back prompting
+* HyDE
+* Routing
+* ColBERT
+* CRAG
+* Adaptive RAG
+
+**📚 FREE Resources:**
+
+* Elasticsearch — search YouTube:
+  `BM25 explained Elasticsearch`
+* Sentence Transformers — search:
+  `cross encoder reranking sentence transformers`
+* Cohere — search:
+  `reranking explained RAG`
+
+**Practice:**
+
+Build:
+
+```text
+User Query
+↓
+Query rewriting
+↓
+Dense Search + BM25
+↓
+RRF
+↓
+Top 20
+↓
+Reranker
+↓
+Top 5
+↓
+LLM
+```
+
 **Priority:** ⭐⭐⭐⭐
 
 ---
@@ -361,6 +658,46 @@ It covers:
 * State
 * Human-in-the-loop
 * Deployment basics
+
+**🎥 FREE VIDEOS:**
+
+* Search YouTube:
+  `LangGraph full course`
+* Search YouTube:
+  `LangGraph agents tutorial Python`
+* Search YouTube:
+  `function calling LLM tools tutorial`
+* Search YouTube:
+  `AI agents explained LangGraph`
+
+**📚 FREE Official Resources:**
+
+* LangGraph documentation
+* https://docs.langchain.com/oss/python/langgraph
+* LangChain Academy
+* https://academy.langchain.com/
+
+**Practice project:**
+
+Build an agent with:
+
+```text
+User
+↓
+Agent
+↓
+Tool selection
+├── Calculator
+├── Search
+├── RAG
+└── Database
+↓
+Observation
+↓
+Agent
+↓
+Final answer
+```
 
 **Priority:** ⭐⭐⭐
 
@@ -400,6 +737,101 @@ Client
 → LLM
 → Evaluation / Guardrails
 → Response
+
+**🎥 BEST FREE VIDEO ADDITION:**
+
+* freeCodeCamp — **Production RAG with LangChain & Vector Databases**
+* https://www.youtube.com/watch?v=mHxLXzYjQRE
+
+This is particularly valuable for this layer because it covers:
+
+* RAG architecture
+* Chroma
+* Similarity search
+* Debugging
+* Hybrid search
+* Token budgeting
+* Observability
+* LangSmith
+* RAG optimization
+* Scaling
+* Production hosting
+* pgvector
+* Security
+* LangGraph
+* FastAPI
+* Testing
+* Advanced RAG
+* Contextual retrieval
+* Late chunking
+* Agentic RAG
+* GraphRAG
+* Multimodal RAG
+
+**🎥 Additional FREE Videos:**
+
+### FastAPI
+
+Search YouTube:
+
+`FastAPI full course Python`
+
+`FastAPI async API tutorial`
+
+`FastAPI production deployment Docker`
+
+### Docker
+
+Search YouTube:
+
+`Docker full course freeCodeCamp`
+
+`Docker for Python FastAPI`
+
+### LLM Production
+
+Search YouTube:
+
+`LLM production deployment FastAPI Docker`
+
+`production RAG architecture`
+
+`LLM application observability`
+
+### Prompt Injection / Security
+
+Search YouTube:
+
+`prompt injection explained LLM security`
+
+`LLM security prompt injection tutorial`
+
+`OWASP LLM Top 10`
+
+**📚 FREE Security Resource:**
+
+* OWASP — **Top 10 for LLM Applications**
+* https://owasp.org/www-project-top-10-for-large-language-model-applications/
+
+Learn especially:
+
+* Prompt injection
+* Insecure output handling
+* Sensitive information disclosure
+* Excessive agency
+* Overreliance
+* Model denial of service
+
+**📚 FREE Production Resources:**
+
+* FastAPI
+* https://fastapi.tiangolo.com/
+* Docker
+* https://docs.docker.com/
+* LangSmith
+* https://smith.langchain.com/
+* OpenTelemetry
+* https://opentelemetry.io/
 
 **Priority:** ⭐⭐⭐⭐⭐
 
